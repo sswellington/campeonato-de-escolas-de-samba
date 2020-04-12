@@ -43,7 +43,7 @@ Logo, levantar uma ficha de dados necessária para elaborar a elicitação de re
 
 #### Sambódromos
 Cada sambódromo possui um endereço especı́fico, uma data de inauguração, um conjunto de nomes de fundadores e assim por diante.
-Adicionalmente, os sambódromos são divididos em diversos setores, cada qual com caracterı́sticas particulares e, conseqüentemente, , preços especı́ficos.
+Adicionalmente, os sambódromos são divididos em diversos setores, cada qual com caracterı́sticas particulares e consequentemente, preços especı́ficos.
 Exemplos de setores incluem arquibancada simples, arquibancada coberta, camarote simples, camarote especial.
 
 #### Campeonatos 
@@ -78,7 +78,7 @@ O modelo ER é então usado para criar um esquema relacional para o banco de dad
 
 <p align="center">
     <img src="/image/ER.svg">
-    <figcaption> Modelo Entidade Relacionamento </figcaption>
+    Figura 1:  Modelo Entidade Relacionamento 
 </p>
 
 ## Normalização e Mapeamento
@@ -89,14 +89,14 @@ redundância de dados e mistura de diferentes assuntos numa mesma tabela.
 
 <p align="center">
     <img src="/image/mape.png">
-    <figcaption> Mapeamento </figcaption>
+    Figura 2: Mapeamento 
 </p>
 
 ## Modelo Relacional
 
 <p align="center">
     <img src="/image/diagram.png">
-    <figcaption> Modelo Relacional </figcaption>
+    Figura 3: Modelo Relacional
 </p>
 
 ## Banco de Dados: MySQL
@@ -105,52 +105,49 @@ redundância de dados e mistura de diferentes assuntos numa mesma tabela.
 * Ordem de desfile em um campeonato X (X é um parâmetro do usuário)
 
 <p align="center">
-    <img src="/image/paradeOrde.png">
-    <figcaption> Ordem de desfile </figcaption>
+    <img src="/image/paradeOrde.png"> <br>
+    Figura 4: Ordem de desfile
 </p>
 
 <p align="center">
-    <img src="/image/resultadoOrdemDesfile.png">
-    <figcaption> Resposta: Ordem de desfile </figcaption>
+    <img src="/image/resultadoOrdemDesfile.png"> <br>
+    Figura 5: Resposta: Ordem de desfile
 </p>
 
 * Listar o nome de todas as pessoas que assistiram ao campeonato X no setor Y (X e Y são um parâmetro do usuário).
 
 <p align="center">
-    <img src="/image/championPeople.png">
-    <figcaption> Assistiram ao campeonato </figcaption>
+    <img src="/image/championPeople.png"> <br>
+    Figura 6: Assistiram ao campeonato
 </p>
 
 <p align="center">
-    <img src="/image/resultadoPessoasAssitem.png">
-    <figcaption> Resposta: Assistiram ao campeonato </figcaption>
+    <img src="/image/resultadoPessoasAssitem.png"> <br>
+    Figura 7: Resposta: Assistiram ao campeonato
 </p>
-
-
-![](/image/resultadoPessoasAssitem.png)
 
 * Duração de desfile de um campeonato
 
-<p align="center">
-    <img src="/image/paradeTime.png">
-    <figcaption> Duração de desfile de um campeonato </figcaption>
+<p align="center"> 
+    <img src="/image/paradeTime.png"> <br>
+    Figura 8: Duração de desfile de um campeonato
 </p>
 
 <p align="center">
-    <img src="/image/resultadoTempo.png">
-    <figcaption> Resposta: Duração de desfile de um campeonato </figcaption>
+    <img src="/image/resultadoTempo.png"> <br>
+    Figura 9: Resposta: Duração de desfile de um campeonato 
 </p>
 
 * Capacidade dos Sambódromo
 
 <p align="center">
-    <img src="/image/capacity.png">
-    <figcaption> Capacidade dos Sambódromo </figcaption>
+    <img src="/image/capacity.png"> <br>
+    Figura 10 Capacidade dos Sambódromo 
 </p>
 
 <p align="center">
-    <img src="/image/resultadoCapacidade.png">
-    <figcaption> Resposta: Capacidade dos Sambódromo </figcaption>
+    <img src="/image/resultadoCapacidade.png"> <br>
+    Figura 11: Resposta: Capacidade dos Sambódromo
 </p>
 
 ## Referências
