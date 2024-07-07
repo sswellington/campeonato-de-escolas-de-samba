@@ -15,6 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [Clean architecture](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures)
 - [Dapper 2.1](https://www.learndapper.com/)
 
+### Fixed
+- CPF and CNPJ of specific types
+
 ## 0.2.0 - 2024-07-07 
 ### Added
 #### Folder structure
@@ -23,8 +26,7 @@ The files are organized into 3 folders according to their purpose, these being:
 - source (src);
 - tests.
 
-### Fixed
-- CPF and CNPJ of specific types
+
 
 ## 0.1.0 - 2016-12-15
 ### Added
