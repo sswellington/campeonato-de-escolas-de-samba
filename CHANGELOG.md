@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## 0.2.0 - 2024-07-07 
 ### Added
-#### Folder structure.
+#### Folder structure
 The files are organized into 3 folders according to their purpose, these being:
 - documents (docs);
 - source (src);
